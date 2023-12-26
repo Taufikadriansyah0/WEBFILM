@@ -1,0 +1,99 @@
+.foto {
+    height: 100vh;
+    background: url("./assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+
+}
+
+
+.trending {
+    height: 100%;
+    background-color: black;
+}
+
+.tren {
+    height: 50vh;
+    background: url("./assets/GATOT.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tren1 {
+    height: 50vh;
+    background: url("./assets/STORM.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tren2 {
+    height: 50vh;
+    background: url("./assets/THOR.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tren3 {
+    height: 50vh;
+    background: url("./assets/SUZUME.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tengah {
+    padding-bottom:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.font {
+    font-family: 'Bebas Neue', Bebas Neue;
+}
+
+.about {
+    height: 100%;
+    background-color: red;
+}
+
+.wrap {
+    display: flex;
+    color:black;
+    flex-direction: row;
+    gap: 3em;
+    justify-content:center;
+    padding: 2em;
+}
+.show {
+    visibility: hidden;
+
+}
+
+@media (max-width: 800px) {
+    .wrap {
+    flex-direction: column;
+    gap: 2em;
+    }
+    .about {
+        height: 90vh;
+    }
+    .hiden{
+        font-size:10px;
+        visibility: hidden;
+    }
+    .show {
+        visibility: visible;
+    }
+}
+
+
+.film {
+    height: 100%;
+    background-color: black;
+}
+
+.Footer {
+    height: 30vh;
+    background-color: red;
+}
